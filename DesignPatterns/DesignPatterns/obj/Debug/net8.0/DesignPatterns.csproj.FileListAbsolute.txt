@@ -12,3 +12,4 @@ F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\ob
 F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.pdb
 F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.genruntimeconfig.cache
 F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net8.0\ref\DesignPatterns.dll
+F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.sourcelink.json

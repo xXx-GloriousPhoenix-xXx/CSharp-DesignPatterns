@@ -1,6 +1,9 @@
 ﻿using DesignPatterns.Builder;
 using DesignPatterns.Factory;
 using DesignPatterns.Prototype;
+using DesignPatterns.Singleton.ConfigurationManager;
+using DesignPatterns.Singleton.Logger;
+using DesignPatterns.Decorator;
 
 namespace DesignPatterns
 {
@@ -8,29 +11,9 @@ namespace DesignPatterns
     {
         public static void Main()
         {
-            //Create custom circle
-            var myCircle = new Circle()
-            {
-                Color = "Red",
-                Radius = 10,
-                X = 5
-            };
-            Console.WriteLine(myCircle.GetInfo());
-
-            //Copy circle
-            var myCircleCopy = myCircle.Clone();
-            Console.WriteLine(myCircleCopy.GetInfo());
-
-            //Initialize shape registry & Load default shapes
-            var registry = new ShapeRegistry();
-            registry.LoadDefaultShapes();
-
-            //Get default rectangle from registry
-            var defaultRectangle = registry.GetPrototype("Rectangle");
-            Console.WriteLine(defaultRectangle.GetInfo());
-
-            //Changing clone without changing original instance
-            // ?
+            var text = new PlainText("Hello World");
+            var decorated = new AccentText(new BotCallText(text));
+            Console.WriteLine(decorated.Render());
         }
     }
 }
