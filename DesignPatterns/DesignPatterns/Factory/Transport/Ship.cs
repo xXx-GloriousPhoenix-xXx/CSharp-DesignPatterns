@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Factory
+﻿namespace DesignPatterns.Factory.Transport
 {
     public class Ship : ITransport
     {

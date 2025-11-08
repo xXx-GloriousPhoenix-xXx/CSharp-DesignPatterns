@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Prototype
+﻿namespace DesignPatterns.Prototype.Shapes
 {
     public class Circle : IGraphicShape
     {

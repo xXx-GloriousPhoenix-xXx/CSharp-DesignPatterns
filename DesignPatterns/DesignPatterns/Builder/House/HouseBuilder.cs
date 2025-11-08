@@ -1,9 +1,9 @@
-﻿namespace DesignPatterns.Builder
+﻿namespace DesignPatterns.Builder.House
 {
     public class HouseBuilder : IHouseBuilder
     {
         private readonly House house = new();
-        
+
         public IHouseBuilder SetFloors(int floors)
         {
             house.Floors = floors;
@@ -42,6 +42,6 @@
         public House Build()
         {
             return house;
-        }        
+        }
     }
 }
