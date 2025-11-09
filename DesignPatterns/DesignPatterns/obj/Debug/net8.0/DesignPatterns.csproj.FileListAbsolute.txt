@@ -13,3 +13,7 @@ F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\ob
 F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.genruntimeconfig.cache
 F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net8.0\ref\DesignPatterns.dll
 F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.sourcelink.json
+F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPatterns.csproj.AssemblyReference.cache
+F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+F:\Programmes\Github\Reps\CSharp-DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net8.0\DesignPa.778FCB8E.Up2Date

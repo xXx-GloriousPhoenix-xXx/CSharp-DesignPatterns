@@ -1,9 +1,4 @@
-﻿using DesignPatterns.Builder;
-using DesignPatterns.Factory;
-using DesignPatterns.Prototype;
-using DesignPatterns.Singleton.ConfigurationManager;
-using DesignPatterns.Singleton.Logger;
-using DesignPatterns.Decorator;
+﻿using DesignPatterns.Strategy.Delivery;
 
 namespace DesignPatterns
 {
@@ -11,9 +6,14 @@ namespace DesignPatterns
     {
         public static void Main()
         {
-            var text = new PlainText("Hello World");
-            var decorated = new AccentText(new BotCallText(text));
-            Console.WriteLine(decorated.Render());
+            var order = new DeliveryContext(new StandardDelivery());
+            Console.WriteLine(order.CalculatePrice(2, 10)); // Standard
+
+            order.SetStrategy(new ExpressDelivery());
+            Console.WriteLine(order.CalculatePrice(2, 10)); // Express
+
+            order.SetStrategy(new InternationalDelivery());
+            Console.WriteLine(order.CalculatePrice(2, 10)); // International
         }
     }
 }

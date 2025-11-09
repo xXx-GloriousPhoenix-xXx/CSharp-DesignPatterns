@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Builder.House.House
+﻿namespace DesignPatterns.Builder.House
 {
     public static class ConstructionEngineer
     {
